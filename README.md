@@ -1,9 +1,9 @@
-# 🌌 The Dreamspace Portfolio
+# The Dreamspace Portfolio
 [eyadarshad.vercel.app](https://eyadarshad.vercel.app/)
 
 A high-fidelity, cinematic 3D portfolio journey through eight conceptual worlds. Built with **Next.js**, **React Three Fiber**, and custom **Web Audio API** synthesis.
 
-## ✨ Features
+## Features
 
 - **8 Immersive Worlds**: From the hyper-structured "Traffic City" to the wireframe "Singularity."
 - **Cinematic Navigation**: Smooth, scroll-controlled camera pathing with keyboard overrides.
@@ -11,7 +11,7 @@ A high-fidelity, cinematic 3D portfolio journey through eight conceptual worlds.
 - **Atomic Cursor**: A custom 3D cursor using Frustum Unprojection to remain perfectly visible in 3D space.
 - **Interactive Portals**: Floating project nodes with direct links to GitHub repositories.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) (App Router)
 - **3D Engine**: [React Three Fiber](https://r3f.docs.pmnd.rs/) & [Drei](https://github.com/pmndrs/drei)
@@ -19,7 +19,7 @@ A high-fidelity, cinematic 3D portfolio journey through eight conceptual worlds.
 - **Styling**: Tailwind CSS & Vanilla CSS
 - **Deployment**: [Vercel](https://vercel.com/)
 
-## 🚀 Getting Started
+## Getting Started
 
 1.  **Clone the Repo**:
     ```bash
@@ -38,7 +38,7 @@ A high-fidelity, cinematic 3D portfolio journey through eight conceptual worlds.
     npm run build
     ```
 
-## 🎨 Visual Philosophy
+## Visual Philosophy
 "Dreamspace" follows a **Dreamcore** aesthetic—blending liminal spaces, sci-fi minimalism, and high-intensity bloom effects to create a cinematic digital fabric.
 
 ---
