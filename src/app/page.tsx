@@ -72,9 +72,10 @@ export default function Home() {
       </div>
 
       {/* 2D HUD Layer */}
-      <div className={`fixed inset-0 z-10 w-full h-full pointer-events-none flex flex-col justify-between p-10 sm:p-14 transition-opacity duration-2000 ${isStarted ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`fixed inset-0 z-10 w-full h-full pointer-events-none flex flex-col justify-between pt-16 pb-10 px-10 sm:pt-20 sm:pb-14 sm:px-14 transition-opacity duration-2000 ${isStarted ? 'opacity-100' : 'opacity-0'}`}>
         {/* Top Header */}
-        <div className="flex justify-between items-start pointer-events-auto">
+        {/* Top Header - Fixed positioning for ultimate margin control */}
+        <div className="fixed top-6 left-10 right-10 sm:top-8 sm:left-14 sm:right-14 z-50 flex justify-between items-start pointer-events-auto">
           <div className="dream-text group">
             <h1 className="text-4xl font-sans font-black tracking-[0.25em] uppercase text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:drop-shadow-[0_0_40px_rgba(255,255,255,0.7)] transition-all duration-700 select-none">
               Eyad Arshad

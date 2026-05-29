@@ -1,7 +1,7 @@
 # dependencies
-node_modules
-/.pnp
-.pnp.*
+node_modules/
+.pnp
+.pnp.js
 
 # testing
 /coverage
@@ -35,10 +35,20 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# agents/meta
+# ide / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# custom / agents / meta
 AGENTS.md
 CLAUDE.md
-# task tracker
 task.md
 walkthrough.md
 implementation_plan.md
+
+# system / lockfiles (optional, usually kept but good to have listed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
